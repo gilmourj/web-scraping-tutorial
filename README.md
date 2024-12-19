@@ -1,8 +1,10 @@
 # Web Scraping Tutorial
 
-This tutorial describes the steps to scrape and download a website. This document was prepared for data preservation efforts in the fall of 2024. Some considerations when scraping a website: do you have enough local storage? It's pretty much impossible to know how big a site will be once downloaded (granted, the script will just stop running if it fills up your storage space, it won't lose the progress you've made) so I would recommend trying to run this in an environment with a sizeable (e.g. 100+ GB) amount of storage. You'll know from the log messages whether you completed your scrape or if it exited because you ran out of storage space.
+This tutorial describes the steps to scrape and download a website. This document was prepared for data preservation efforts in the fall of 2024. 
 
-Once you've downloaded a site, upload it to a storage site that guarantees long-term storage so that others can benefit from the data preservation.
+Some considerations when scraping a website: do you have enough local storage? It's pretty much impossible to know how big a site will be once downloaded (granted, the script will just stop running if it fills up your storage space, it won't lose the progress you've made) so **I would recommend trying to run this in an environment with a sizeable (e.g. 100+ GB) amount of storage**. You'll know from the log messages whether you completed your scrape or if it exited because you ran out of storage space.
+
+Once you've downloaded a site, upload it to a storage site that guarantees long-term storage so that others can benefit from the data preservation. \[More on this soon\].
 ## Get the tool
 
 ### On mac/linux:
