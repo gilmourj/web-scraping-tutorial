@@ -41,7 +41,7 @@ Follow [this tutorial](https://www.tecmint.com/install-wget-in-linux/).
 
 ## Using WGET
 
-To scrape an entire website, I've been using the following command:
+To scrape a website, open a new terminal window and drop in the following command (and replace the website name!):
 `wget -m -k -K -l 10 -t 6 -w 0.5 http://www.website.com`
 
 ### Explanation
